@@ -53,11 +53,13 @@ from a Python script.
 The tool is a normal CLI: it takes the normal three positional arguments and returns an exit code. Everything below assumes you've installed it, either as a .NET global tool or by calling the .dll directly.
 
 **Arguments**
-```GMDiffTool <modded.win> <vanilla.win> [outputFolder]```
+```in, r, o
+GMDiffTool <modded.win> <vanilla.win> [outputFolder]
+```
 
 **Exit Codes**
-0 = every diff step completed without throwing.
-1 = at least one step failed; the per-category failures are written to `<outputFolder>/errors.txt`, and every step that could run still produced its output.
+- 0 = every diff step completed without throwing.
+- 1 = at least one step failed; the per-category failures are written to `<outputFolder>/errors.txt`, and every step that could run still produced its output.
 
 For usage in programming languages, check the **Examples** folder.
 
