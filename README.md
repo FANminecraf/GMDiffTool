@@ -12,7 +12,7 @@ A fork of [ModShardTool](https://github.com/ModShardTeam/ModShardDiff) that fixe
 - Added a safety check for *-o* that refuses to delete *-o* if:
   1. either input .win file lives inside it, or
   2. it contains any .win file.
-  (If either check trips, the tool throws, prints the reason to stderr, and exits non-zero before deleting anything.)
+(If either check trips, the tool throws, prints the reason to stderr, and exits non-zero before deleting anything.)
 
 # Files that you will get by default (mostly unchanged)
 **Text Data**
