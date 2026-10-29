@@ -3,7 +3,7 @@ A fork of [https://github.com/ModShardTeam/ModShardDiff](ModShardTool) that fixe
 
 # Changes
 - Fixed an issue with a 0x0 rectangle/malformed frame or sprite that aborted the entire process.
-- Upgraded from `NET 6.0` > `NET 10.0` (requires [https://dotnet.microsoft.com/en-us/download/dotnet/10.0](NET 10.0+ runtime.))
+- Upgraded from `NET 6.0` > `NET 10.0` (requires [https://dotnet.microsoft.com/en-us/download/dotnet/10.0](NET 10.0+ runtime.) )
 - Upgraded the Library from using `UnderTaleModTool v0.8.0.0` **>** `UnderTaleModTool v0.9.2.0` (latest Library of UndertaleModToolLib).
 - Changed from using `UndertaleModLib.Decompiler` (deprecated) **>** `Underanalyzer` for code compilation.
 
