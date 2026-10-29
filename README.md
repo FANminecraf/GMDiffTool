@@ -63,3 +63,5 @@ For usage in programming languages, check the **Examples** folder.
 # Future Plans
 More optimizations and refining which geometry changes qualify for export. 
 Mainly about correctness and reducing unnecessary output, which should reduce elapsed time.
+
+Coding implementation and replacing numeric indexes for contextual names.
