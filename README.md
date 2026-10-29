@@ -5,7 +5,7 @@ A fork of [ModShardTool](https://github.com/ModShardTeam/ModShardDiff) that fixe
 - Fixed an issue with a 0x0 rectangle/malformed frame or sprite that aborted the entire process.
 - Upgraded from `NET 6.0` > `NET 10.0` (requires [NET 10.0+ runtime.](https://dotnet.microsoft.com/en-us/download/dotnet/10.0))
 - Upgraded the Library from using `UnderTaleModTool v0.8.0.0` **>** `UnderTaleModTool v0.9.2.0` (latest Library of UndertaleModToolLib).
-- Changed from using `UndertaleModLib.Decompiler` (deprecated) **>** `Underanalyzer` for code compilation.
+- Changed from using `UndertaleModLib.Decompiler` **>** `Underanalyzer` for code compilation.
 
 # Additions
 - Should be able to detect reskins/visual changes from the vanilla & modified .win, and write them in `Modified Sprites` correctly.
