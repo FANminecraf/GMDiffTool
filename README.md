@@ -1,5 +1,5 @@
 # GMDiffTool
-A fork of [https://github.com/ModShardTeam/ModShardDiff](ModShardTool) that fixes a lot of the issues found within the older version.
+A fork of [ModShardTool](https://github.com/ModShardTeam/ModShardDiff) that fixes a lot of the issues found within the older version.
 
 # Changes
 - Fixed an issue with a 0x0 rectangle/malformed frame or sprite that aborted the entire process.
