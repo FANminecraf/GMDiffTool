@@ -59,3 +59,7 @@ The tool is a normal CLI: it takes the normal three positional arguments and ret
 1 = at least one step failed; the per-category failures are written to `<outputFolder>/errors.txt`, and every step that could run still produced its output.
 
 For usage in programming languages, check the **Examples** folder.
+
+# Future Plans
+More optimizations and refining which geometry changes qualify for export. 
+Mainly about correctness and reducing unnecessary output, which should reduce elapsed time.
